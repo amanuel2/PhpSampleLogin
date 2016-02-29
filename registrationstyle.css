@@ -1,0 +1,216 @@
+body{
+    background: #2C303C;
+}
+
+/* Wrapper */
+.icon-button {
+	background-color: white;
+	margin:0px;
+	padding:0px;
+	border-radius: 3.6rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.0rem;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 3.6rem;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 3.6rem;
+	height: 3.6rem;
+	border-radius: 3.6rem;
+	margin: -1.8rem;
+}
+.twitter span {
+	background-color: #4099ff;
+}
+.facebook span {
+	background-color: #3B5998;
+}
+.google-plus span {
+	background-color: #db5a3c;
+}
+
+/* Icons */
+.icon-button i {
+	background: none;
+	margin:0px; padding:0px;
+	color: white;
+	height: 3.6rem;
+	left: 0;
+	line-height: 3.6rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 3.6rem;
+	z-index: 10;
+}
+.icon-button .icon-twitter {
+	color: #4099ff;
+	position:relative;
+}
+
+.icon-button .icon-facebook {
+	color: #3B5998;
+}
+.icon-button .icon-google-plus {
+	color: #db5a3c;
+}
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-facebook,
+.icon-button:hover .icon-google-plus {
+	color: white;
+}
+a.icon-button.twitter {
+    position: relative;
+    left: -80px;
+    bottom: 14px;
+}
+a.icon-button.facebook {
+    position: relative;
+    left: 0px;
+    bottom: 51px;
+}
+a.icon-button.google-plus {
+    position: relative;
+    left: 80px;
+    bottom: 92px;
+}
+.social-buttons {
+    position: relative;
+    left: 15px;
+    bottom: -30px;
+}
+.form{
+       position: relative;
+    bottom: -40px;
+}
+#emailForm {
+    width: 300px;
+    position: relative;
+    right: 110px;
+    /* height: 2930210px; */
+    top: -5px;
+    /* height: 100px; */
+}
+
+#passwordForm {
+    width: 300px;
+    position: relative;
+    right: 110px;
+    bottom: 10px;
+}
+i.glyphicon.glyphicon-user {
+    position: relative;
+    top: 25px;
+    right: -7px;
+}
+i.glyphicon.glyphicon-lock {
+    position: relative;
+    top: 27px;
+    right: -10px;
+}
+#formSubmit {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 100px;
+    width: 200%;
+    height: 50px;
+    position: relative;
+    right: 40px;
+    top:20px;
+}
+#signUp{
+    border-color: rgba(255, 255, 255, 0.2);
+    border-color: white;
+      background: none;
+      font-weight:bold;
+      border-radius:300px;
+      right: 80px;
+      font-size:12px;
+    top: 30px;
+}
+#forgot{
+        border-color: rgba(255, 255, 255, 0.2);
+    border-color: white;
+    font-weight:bold;
+    font-size: 12px;
+      background: none;
+      border-radius:300px;
+      left:-20px;
+    top: 30px;
+}
+.signup {
+    position: relative;
+    right: 100px;
+    top: 33px;
+}
+i.glyphicon.glyphicon-envelope {
+    position: relative;
+    top: 27px;
+    left: 7px;
+}
+.forgotPass {
+    position: relative;
+    left: 20px;
+    /* right: 20px; */
+}
+#registrationHead{
+    position:relative;
+    right:5px;
+}
+#login2.hide {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    -ms-transition: opacity 0.4s ease-in;
+    -moz-transition: opacity 0.4s ease-in;
+    -webkit-transition: opacity 0.4s ease-in;
+}
+#regHead{
+   font-family: proxima_nova!important;
+   color:#d3d3d3;
+       font-size: 44px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    position: relative;
+    left: -32px;
+    top: 5px;
+  }
+.input-group {
+    position: relative;
+    bottom: 120px;
+    left: -80px;
+    height: 20px;
+}
+#emailButton{
+        height: 61px;
+}
+input#search-query-2 {
+    position: relative;
+    left: 50px;
+}
